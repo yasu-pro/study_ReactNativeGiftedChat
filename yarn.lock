@@ -2764,6 +2764,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/geojson@npm:^7946.0.13":
+  version: 7946.0.14
+  resolution: "@types/geojson@npm:7946.0.14"
+  checksum: 10c0/54f3997708fa2970c03eeb31f7e4540a0eb6387b15e9f8a60513a1409c23cafec8d618525404573468b59c6fecbfd053724b3327f7fca416729c26271d799f55
+  languageName: node
+  linkType: hard
+
 "@types/graceful-fs@npm:^4.1.3":
   version: 4.1.9
   resolution: "@types/graceful-fs@npm:4.1.9"
@@ -5028,6 +5035,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expo-image-loader@npm:~4.7.0":
+  version: 4.7.0
+  resolution: "expo-image-loader@npm:4.7.0"
+  peerDependencies:
+    expo: "*"
+  checksum: 10c0/7db9df154f1b44e9877361e0707715503eaaf2b18968b6aecb6b0205612cf40bfd99ab8c6e6d7de3a5abd35267e9636963d5050e082af063d8e527763d597eb1
+  languageName: node
+  linkType: hard
+
+"expo-image-picker@npm:15.0.5":
+  version: 15.0.5
+  resolution: "expo-image-picker@npm:15.0.5"
+  dependencies:
+    expo-image-loader: "npm:~4.7.0"
+  peerDependencies:
+    expo: "*"
+  checksum: 10c0/fabc9428184c58c7d6d88f601cb5b5b74de24c575947cb2484a50c436d180c8d00c27ec5a28f1ba84cd6375e0a4a36b930ed9690a815c8e6f4ad492eaa78774c
+  languageName: node
+  linkType: hard
+
 "expo-keep-awake@npm:~13.0.1":
   version: 13.0.1
   resolution: "expo-keep-awake@npm:13.0.1"
@@ -5044,6 +5071,15 @@ __metadata:
     expo-constants: "npm:~16.0.0"
     invariant: "npm:^2.2.4"
   checksum: 10c0/a6550cacc3117dde92fe9758c3b97089dae8ce2d90a2d6dd4441571991c4c7e139beb9d5648f04eef2fccc52f00f1631f36717bcd070c62413c013a30ae7aa97
+  languageName: node
+  linkType: hard
+
+"expo-location@npm:17.0.1":
+  version: 17.0.1
+  resolution: "expo-location@npm:17.0.1"
+  peerDependencies:
+    expo: "*"
+  checksum: 10c0/b73ab52c3ad91ac3f0457b3ef5fd8c1260288f680a51e75db0d6c2fd4a15e8450b8a7ec405788cffdacc7b0dd7f62318916122cdb377e07697af896163e66a7d
   languageName: node
   linkType: hard
 
@@ -5068,6 +5104,15 @@ __metadata:
   dependencies:
     invariant: "npm:^2.2.4"
   checksum: 10c0/e31465c902825692c11725a1ce38660ff6ea7fdb1875c5f6e87b0cc9df84816061947c6678e894b914702320df605c975ba329e28f5edff26455b24deeb34bae
+  languageName: node
+  linkType: hard
+
+"expo-permissions@npm:14.4.0":
+  version: 14.4.0
+  resolution: "expo-permissions@npm:14.4.0"
+  peerDependencies:
+    expo: "*"
+  checksum: 10c0/05f12cc80bedfd74c3fc9979f10fa99309e781512f081565922043d232e25c13f0361c918f5896780b29fa80a9ab93a1521881e44c56a895c7129ad56ddc3264
   languageName: node
   linkType: hard
 
@@ -9187,6 +9232,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-maps@npm:1.15.4":
+  version: 1.15.4
+  resolution: "react-native-maps@npm:1.15.4"
+  dependencies:
+    "@types/geojson": "npm:^7946.0.13"
+  peerDependencies:
+    react: ">= 17.0.1"
+    react-native: ">= 0.64.3"
+    react-native-web: ">= 0.11"
+  peerDependenciesMeta:
+    react-native-web:
+      optional: true
+  checksum: 10c0/e3480868be69c6bb7afc41aff1a9c56a626786dadb52450bdaf7c04d85f3c7c120c45acc5a689edfd6df8175dd04ffd88f5f4d719054a4d6b9c506806cec5ed4
+  languageName: node
+  linkType: hard
+
 "react-native-parsed-text@npm:0.0.22":
   version: 0.0.22
   resolution: "react-native-parsed-text@npm:0.0.22"
@@ -10457,7 +10518,10 @@ __metadata:
     expo: "npm:~51.0.2"
     expo-constants: "npm:~16.0.1"
     expo-font: "npm:~12.0.4"
+    expo-image-picker: "npm:15.0.5"
     expo-linking: "npm:~6.3.1"
+    expo-location: "npm:17.0.1"
+    expo-permissions: "npm:14.4.0"
     expo-router: "npm:~3.5.11"
     expo-splash-screen: "npm:~0.27.4"
     expo-status-bar: "npm:~1.12.1"
@@ -10470,6 +10534,7 @@ __metadata:
     react-native: "npm:0.74.1"
     react-native-gesture-handler: "npm:~2.16.1"
     react-native-gifted-chat: "npm:2.4.0"
+    react-native-maps: "npm:1.15.4"
     react-native-reanimated: "npm:~3.10.1"
     react-native-safe-area-context: "npm:4.10.1"
     react-native-screens: "npm:3.31.1"
